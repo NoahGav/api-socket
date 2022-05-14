@@ -11,7 +11,14 @@
     "node_modules": true,
     "yarn.lock": true,
     "packages/client/dist": true,
-    "packages/server/dist": true
+    "packages/server/dist": true,
+    "packages/server/tsconfig.json": true,
+    "packages/server/package.json": true,
+    "package.json": true,
+    ".gitignore": true,
+    "packages/client/tsconfig.json": true,
+    "packages/client/package.json": true,
+    ".vscode": true
   },
   "hide-files.files": [
     "packages/server/node_modules",
@@ -19,6 +26,13 @@
     "node_modules",
     "yarn.lock",
     "packages/client/dist",
-    "packages/server/dist"
+    "packages/server/dist",
+    "packages/server/tsconfig.json",
+    "packages/server/package.json",
+    "package.json",
+    ".gitignore",
+    "packages/client/tsconfig.json",
+    "packages/client/package.json",
+    ".vscode"
   ]
 }
