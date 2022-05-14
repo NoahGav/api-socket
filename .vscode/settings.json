@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "packages/server/node_modules": true,
+    "packages/client/node_modules": true,
+    "node_modules": true,
+    "yarn.lock": true,
+    "packages/client/dist": true,
+    "packages/server/dist": true
+  },
+  "hide-files.files": [
+    "packages/server/node_modules",
+    "packages/client/node_modules",
+    "node_modules",
+    "yarn.lock",
+    "packages/client/dist",
+    "packages/server/dist"
+  ]
+}

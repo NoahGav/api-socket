@@ -1,0 +1,18 @@
+{
+  "private": "true",
+  "workspaces": ["packages/*"],
+
+  "scripts": {
+    "build-api-socket": "yarn workspace api-socket build",
+    "build-api-socket-client": "yarn workspace api-socket-client build",
+    "build": "yarn concurrently \"yarn build-api-socket\" \"yarn build-api-socket-client\"",
+
+    "serve-api-socket": "yarn workspace api-socket serve",
+    "serve-api-socket-client": "yarn workspace api-socket-client serve",
+    "serve": "yarn concurrently \"yarn serve-api-socket\" \"yarn serve-api-socket-client\""
+  },
+
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
